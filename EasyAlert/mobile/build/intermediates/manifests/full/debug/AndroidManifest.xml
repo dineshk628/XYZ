@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.easyalert"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+ <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+ <!-- Optional permission for App measurement to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.dell.easyalert.MobileMainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MainScreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.example.dell.easyalert.database.Provider"
+            android:authorities="com.example.dell.easyalert" />
+
+        <activity
+            android:name="com.example.dell.easyalert.AddNewTaskActivity"
+            android:label="@string/title_activity_add_new_task"
+            android:parentActivityName="com.example.dell.easyalert.MobileMainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.easyalert.MobileMainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.dell.easyalert.GetPlaceFromMap"
+            android:label="@string/title_activity_get_place_from_map"
+            android:parentActivityName="com.example.dell.easyalert.AddNewTaskActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.easyalert.AddNewTaskActivity" />
+        </activity>
+        <activity
+            android:name="com.example.dell.easyalert.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName="com.example.dell.easyalert.MobileMainActivity"
+            android:theme="@style/AppTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.easyalert.MobileMainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBFEw5doTArXeyLS-tpf1eRJhO6zKyF2II" />
+
+        <!-- <!AIzaSyAS-E2WRKbq-QWk07Z3mFs-0CBs3yKDTO0&ndash;&gt; -->
+        <!-- RELEASE VERSION KEY -->
+        <!-- android:value="AIzaSyAS-E2WRKbq-QWk07Z3mFs-0CBs3yKDTO0" -->
+        <!-- DEBUG VERSION KEY -->
+        <!-- android:value="AIzaSyCQ29q4cPRleTbpSwJf0iRMOauuev4foDg" -->
+
+        <activity
+            android:name="com.example.dell.easyalert.SavedLocationListActivity"
+            android:label="@string/title_activity_saved_location_list"
+            android:parentActivityName="com.example.dell.easyalert.AddNewTaskActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.easyalert.AddNewTaskActivity" />
+        </activity>
+        <activity
+            android:name="com.example.dell.easyalert.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:parentActivityName="com.example.dell.easyalert.MobileMainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.easyalert.MobileMainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.dell.easyalert.AlarmActivity"
+            android:label="@string/title_activity_alarm" />
+
+        <service
+            android:name="com.example.dell.easyalert.service.LocationService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.example.dell.easyalert.service.ActivityDetection"
+            android:enabled="true" />
+
+        <activity
+            android:name="com.example.dell.easyalert.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName="com.example.dell.easyalert.MobileMainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.easyalert.MobileMainActivity" />
+        </activity>
+        <activity
+            android:name="com.example.dell.easyalert.HelpActivity"
+            android:label="@string/title_activity_help"
+            android:parentActivityName="com.example.dell.easyalert.MobileMainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.dell.easyalert.MobileMainActivity" />
+        </activity>
+
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <provider
+            android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
+            android:authorities="com.example.dell.easyalert.google_measurement_service"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.measurement.UPLOAD" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

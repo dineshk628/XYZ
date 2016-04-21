@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_map.xml",
+        "source": "E:\\android\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_map.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_map.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\android\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_help.xml",
+        "source": "E:\\android\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_help.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
+        "source": "E:\\android\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_help.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_help.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_help.xml",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_help.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_map.xml",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_map.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\menu\\menu_detail.xml"
+    }
+]

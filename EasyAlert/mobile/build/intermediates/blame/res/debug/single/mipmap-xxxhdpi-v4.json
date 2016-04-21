@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\android\\EasyAlert\\mobile\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\icon_hd.png",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\mipmap-xxxhdpi\\icon_hd.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

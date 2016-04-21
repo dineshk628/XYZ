@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "E:\\android\\EasyAlert\\mobile\\src\\main\\res\\xml\\pref_general.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\src\\main\\res\\xml\\pref_general.xml"
+    }
+]

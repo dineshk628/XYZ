@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "E:\\Android working\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\error_layout.xml",
+        "source": "E:\\Android working\\EasyAlert\\wear\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.3.0\\res\\layout\\error_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\activity_watch_main.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\src\\main\\res\\layout\\activity_watch_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\error_layout.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.3.0\\res\\layout\\error_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog_wearable.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.3.0\\res\\layout\\alert_dialog_wearable.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\rect_activity_watch_main.xml",
+        "source": "E:\\Android working\\EasyAlert\\wear\\src\\main\\res\\layout\\rect_activity_watch_main.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\round_activity_watch_main.xml",
+        "source": "E:\\Android working\\EasyAlert\\wear\\src\\main\\res\\layout\\round_activity_watch_main.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\error_layout.xml",
+        "source": "E:\\android\\EasyAlert\\wear\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.3.0\\res\\layout\\error_layout.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog_wearable.xml",
+        "source": "E:\\android\\EasyAlert\\wear\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.3.0\\res\\layout\\alert_dialog_wearable.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\rect_activity_watch_main.xml",
+        "source": "E:\\android\\EasyAlert\\wear\\src\\main\\res\\layout\\rect_activity_watch_main.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\round_activity_watch_main.xml",
+        "source": "E:\\android\\EasyAlert\\wear\\src\\main\\res\\layout\\round_activity_watch_main.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\activity_watch_main.xml",
+        "source": "E:\\Android working\\EasyAlert\\wear\\src\\main\\res\\layout\\activity_watch_main.xml"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\alert_dialog_wearable.xml",
+        "source": "E:\\Android working\\EasyAlert\\wear\\build\\intermediates\\exploded-aar\\com.google.android.support\\wearable\\1.3.0\\res\\layout\\alert_dialog_wearable.xml"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\activity_watch_main.xml",
+        "source": "E:\\android\\EasyAlert\\wear\\src\\main\\res\\layout\\activity_watch_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\rect_activity_watch_main.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\src\\main\\res\\layout\\rect_activity_watch_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\build\\intermediates\\res\\merged\\debug\\layout\\round_activity_watch_main.xml",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\wear\\src\\main\\res\\layout\\round_activity_watch_main.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\alarm.mp3",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\src\\main\\res\\raw\\alarm.mp3"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    },
+    {
+        "merged": "E:\\android\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\alarm.mp3",
+        "source": "E:\\android\\EasyAlert\\mobile\\src\\main\\res\\raw\\alarm.mp3"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\alarm.mp3",
+        "source": "C:\\Users\\DELL\\Desktop\\EasyAlert\\mobile\\src\\main\\res\\raw\\alarm.mp3"
+    },
+    {
+        "merged": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "E:\\Android working\\EasyAlert\\mobile\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.4.0\\res\\raw\\gtm_analytics"
+    }
+]
